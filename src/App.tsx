@@ -6,6 +6,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Child } from './FunctionalComponentExample';
 import MainPage from './Pages/MainPage';
 function App() {
+    console.log('test')
     return (
         <BrowserRouter>
             <Switch>
